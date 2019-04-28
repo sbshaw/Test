@@ -1,0 +1,60 @@
+---
+title: "General Info"
+output: 
+  html_document
+---
+
+
+```{r,echo=FALSE, eval=FALSE}
+rmarkdown::render_site("index.Rmd")# render the file in the parentheses
+rmarkdown::render_site()# this renders ALL RMD files in your working directory-rarely used
+```
+
+
+## Class Schedule
+
+* Class 01 (Lec.1): Computational Thinking [PPT](pdfs/Lecture1-and-2.pptx)
+* Class 02 (Auto.2): R Basics [PDF]
+    * [State of World Fisheries- Part I](https://youtu.be/lXMheis4CkI)
+* Class 03 (Lab 1): Getting Started in R [DOC](pdfs/Labs_2019.docx)
+* Class 04 (Lec.2): Variables and Basic I/O [PDF](pdfs/Lecture5.pptx)
+* Class 05 (Lab 2):  Madlibs [PDF](pdfs/SP19-05.pdf)
+* Class 06 (Lec.3): Basic Data Structures[PPT](pdfs/SP19-06.pdf)
+* Class 07 (Auto.2): Vectors & Arrays [PDF](pdfs/SP19-07.pdf)
+* Class 08 (Lab 3): Vectors & Arrays [PDF](pdfs/SP19-08.pdf)
+* Class 09 (Lec. 4): Hex & Conditionals  [PDF](pdfs/SP19-09.pdf)
+* Class 10 (Auto.3): Conditionals  [PDF](pdfs/SP19-10.pdf) Up to here for exam 1.
+* Class 11 (Lab 4): Conditionals & Hex Practice [PDF](pdfs/4133 Exam-SP19-key.pdf) 
+* Class 12 (Lec.5): Commenting, Pseudocode, & Exception Handling [PDF](pdfs/SP19-11.pdf) 
+* Class 13 (Auto. 4): Simple Loops [PDF](pdfs/SP19-12.pdf) 
+* Class 14 (Lab 5): Simple Loops [PDF](pdfs/SP19-13.pdf) 
+* Class 15 (Lec. 6) & Quiz 1: Loops with Multiple Variables & Alternatives [HTML](pdfs/LoopsIntro.html) 
+* Class 16 (Auto. 5): Multivariable Loops (pdfs/SP19-15.pdf) 
+* Class 17 (Lab 6): Multivarible Loops [PDF](pdfs/SP19-16.pdf) 
+* Class 18 Test Review: Last Year's Test [PDF](pdfs/SP19-17.pdf) 
+* Class 19 Test 1:   
+* Class 20 (Auto. 6): History of Computing [PDF](pdfs/SP19-19.pdf) 
+* Class 21 (Lec.7): Functions
+* Class 22 (Auto.7): Functions[PDF](pdfs/SP19-20.pdf) 
+* Class 23 (Lab 7): Functions [PDF](pdfs/SP19-21.pdf) 
+* Class 24 (Lec. 8): Data Science Basics [PDF](pdfs/SP19-22.pdf) 
+* Class 25 (Auto. 8): File Input, Dataframes, and Plotting [PDF](pdfs/SP19-23.pdf) 
+* Class 26 (Lab 8): Dry Days Project [PDF](pdfs/SP19-24.pdf) 
+* Class 27 (Auto 9): More Data Science Skills
+* Class 28 Quiz 2 & Work Day  
+* Class 29 (Lab 9): Wind Turbine Analysis 
+* Class 30 (Lec.9): Intro to Web Apps and Shiny [PDF](pdfs/SP19-21.pdf) 
+* Class 31 (Auto. 10): Shiny Basics [PDF](pdfs/SP19-22.pdf) 
+* Class 32 (Lab 10): Shiny [PDF](pdfs/SP19-23.pdf) 
+* Class 33 (Lec. 10): Basic of Numerical Solutions[PDF](pdfs/SP19-24.pdf) 
+* Class 34 (Auto. 11): Simple Numerical Solutions
+* Class 35 (Lab 11): Numerical Integration [PDF](pdfs/SP19-20.pdf) 
+* Class 36 Project Work 
+* Class 37 Project Work 
+* Class 38 Project Work 
+* Class 39 Test 2
+* Class 40 Project Presentations [PDF](pdfs/SP19-24.pdf) 
+* Class 41 Project Presentations
+
+##Grading 
+There are 1000 points available in the class. Two quizzes, each worth 25 points. Two tests, each worth 150 points. Eleven Lab assignments, worth 500 points total. A final project, worth 150 points. 

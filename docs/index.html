@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>General Info</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Test Site</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-files-o"></span>
+     
+    General Info
+  </a>
+</li>
+<li>
+  <a href="labs.html">
+    <span class="fa fa-pencil-square-o"></span>
+     
+    Site Info
+  </a>
+</li>
+<li>
+  <a href="syllabus.html">
+    <span class="fa fa-file-text"></span>
+     
+    Data
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">General Info</h1>
+
+</div>
+
+
+<div id="class-schedule" class="section level2">
+<h2>Class Schedule</h2>
+<ul>
+<li>Class 01 (Lec.1): Computational Thinking <a href="pdfs/Lecture1-and-2.pptx">PPT</a></li>
+<li>Class 02 (Auto.2): R Basics [PDF]
+<ul>
+<li><a href="https://youtu.be/lXMheis4CkI">State of World Fisheries- Part I</a></li>
+</ul></li>
+<li>Class 03 (Lab 1): Getting Started in R <a href="pdfs/Labs_2019.docx">DOC</a></li>
+<li>Class 04 (Lec.2): Variables and Basic I/O <a href="pdfs/Lecture5.pptx">PDF</a></li>
+<li>Class 05 (Lab 2): Madlibs <a href="pdfs/SP19-05.pdf">PDF</a></li>
+<li>Class 06 (Lec.3): Basic Data Structures<a href="pdfs/SP19-06.pdf">PPT</a></li>
+<li>Class 07 (Auto.2): Vectors &amp; Arrays <a href="pdfs/SP19-07.pdf">PDF</a></li>
+<li>Class 08 (Lab 3): Vectors &amp; Arrays <a href="pdfs/SP19-08.pdf">PDF</a></li>
+<li>Class 09 (Lec. 4): Hex &amp; Conditionals <a href="pdfs/SP19-09.pdf">PDF</a></li>
+<li>Class 10 (Auto.3): Conditionals <a href="pdfs/SP19-10.pdf">PDF</a> Up to here for exam 1.</li>
+<li>Class 11 (Lab 4): Conditionals &amp; Hex Practice <a href="pdfs/4133%20Exam-SP19-key.pdf">PDF</a></li>
+<li>Class 12 (Lec.5): Commenting, Pseudocode, &amp; Exception Handling <a href="pdfs/SP19-11.pdf">PDF</a></li>
+<li>Class 13 (Auto. 4): Simple Loops <a href="pdfs/SP19-12.pdf">PDF</a></li>
+<li>Class 14 (Lab 5): Simple Loops <a href="pdfs/SP19-13.pdf">PDF</a></li>
+<li>Class 15 (Lec. 6) &amp; Quiz 1: Loops with Multiple Variables &amp; Alternatives <a href="pdfs/LoopsIntro.html">HTML</a></li>
+<li>Class 16 (Auto. 5): Multivariable Loops (pdfs/SP19-15.pdf)</li>
+<li>Class 17 (Lab 6): Multivarible Loops <a href="pdfs/SP19-16.pdf">PDF</a></li>
+<li>Class 18 Test Review: Last Year’s Test <a href="pdfs/SP19-17.pdf">PDF</a></li>
+<li>Class 19 Test 1:<br />
+</li>
+<li>Class 20 (Auto. 6): History of Computing <a href="pdfs/SP19-19.pdf">PDF</a></li>
+<li>Class 21 (Lec.7): Functions</li>
+<li>Class 22 (Auto.7): Functions<a href="pdfs/SP19-20.pdf">PDF</a></li>
+<li>Class 23 (Lab 7): Functions <a href="pdfs/SP19-21.pdf">PDF</a></li>
+<li>Class 24 (Lec. 8): Data Science Basics <a href="pdfs/SP19-22.pdf">PDF</a></li>
+<li>Class 25 (Auto. 8): File Input, Dataframes, and Plotting <a href="pdfs/SP19-23.pdf">PDF</a></li>
+<li>Class 26 (Lab 8): Dry Days Project <a href="pdfs/SP19-24.pdf">PDF</a></li>
+<li>Class 27 (Auto 9): More Data Science Skills</li>
+<li>Class 28 Quiz 2 &amp; Work Day<br />
+</li>
+<li>Class 29 (Lab 9): Wind Turbine Analysis</li>
+<li>Class 30 (Lec.9): Intro to Web Apps and Shiny <a href="pdfs/SP19-21.pdf">PDF</a></li>
+<li>Class 31 (Auto. 10): Shiny Basics <a href="pdfs/SP19-22.pdf">PDF</a></li>
+<li>Class 32 (Lab 10): Shiny <a href="pdfs/SP19-23.pdf">PDF</a></li>
+<li>Class 33 (Lec. 10): Basic of Numerical Solutions<a href="pdfs/SP19-24.pdf">PDF</a></li>
+<li>Class 34 (Auto. 11): Simple Numerical Solutions</li>
+<li>Class 35 (Lab 11): Numerical Integration <a href="pdfs/SP19-20.pdf">PDF</a></li>
+<li>Class 36 Project Work</li>
+<li>Class 37 Project Work</li>
+<li>Class 38 Project Work</li>
+<li>Class 39 Test 2</li>
+<li>Class 40 Project Presentations <a href="pdfs/SP19-24.pdf">PDF</a></li>
+<li>Class 41 Project Presentations</li>
+</ul>
+</div>
+<div id="grading" class="section level2">
+<h2>Grading</h2>
+<p>There are 1000 points available in the class. Two quizzes, each worth 25 points. Two tests, each worth 150 points. Eleven Lab assignments, worth 500 points total. A final project, worth 150 points.</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

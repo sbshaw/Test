@@ -1,0 +1,20 @@
+name: "Test Site"
+navbar:
+  title: "Test Site"
+  right:
+    - text: "General Info"
+      icon: fa-files-o
+      href: index.html  
+    - text: "Site Info"
+      icon: fa-pencil-square-o
+      href: labs.html     
+    - text: "Data"
+      icon: fa-file-text
+      href: syllabus.html    
+output_dir: "docs"
+exclude: ["*.bib","*.csv","*.xlsx","*.docx","*.txt","_videos","*.mp4","*.Rmd","classes","labs"]    
+include: [".nojekyll"] 
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
